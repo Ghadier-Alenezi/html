@@ -1,42 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First lecture of HTML</title>
 </head>
+
 <body>
-    
+
     <h1>First week in <span style="color:red ;">Tuwaiq 1000</span> </h1>
     <h1>Qassim - JavaScript</h1>
     <div>
-    <h2>Lectures</h2>
-    <p>
-        Start with <b>installations</b>, create accounts then learn more about CLI vs GUI, Version control system.
-    </p>
+        <h2>Lectures</h2>
+        <p>
+            Start with <b>installations</b>, create accounts then learn more about CLI vs GUI, Version control system.
+        </p>
+        <img src="./slide05.jpg" alt="common commands" />
 
-    <span> CLI, GitHub</span>
+        <span> CLI, GitHub</span>
     </div>
 
     <div>
         <hr>
 
-    <h2>Labs</h2>
-    <p>
-        Lab1: Make a <span style="color: blue;"><b>T1000</b></span> directory,
-        creat the following directories:
-        T1000
-        |-- warmups
-        |-- homeworks_labs
-        |-- lessones
-        |-- projests
-    </p>
+        <h2>Labs</h2>
+        <p>
+            <b>Lab1:</b> Make a <span style="color: blue;"><b>T1000</b></span> directory,
+            create the following directories:
+        </p>
+        <ul>
+            <li>~/T1000</li>
+            <li>|-- warmups</li>
+            <li>|-- homeworks_labs</li>
+            <li>|-- lessones</li>
+            <li>|-- projests</li>
+        </ul>
 
-    <p>
-        Lab2: New <strong>HTML</strong> repo, Type first html code
-    </p>
+        <table>
+            <tr>
+                <th>
+                    Task
+                </th>
+                <th>
+                    Git command
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Clone the GitHub repo |
+                </td>
+                <td>
+                    git clon URL
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Stage changes |
+                </td>
+                <td>
+                    git add .
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Commit changes |
+                </td>
+                <td>
+                    git commit -m "commit message"
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    upload commited changes from local to cloud |
+                </td>
+                <td>
+                    git push
+                </td>
+            </tr>
+        </table>
+
+        <p>
+            <b>Lab2:</b> New <strong>HTML</strong> repo, Type first html code
+        </p>
+        <img src="data:image/png;base64,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"
+            alt="html photo" />
+
+    </div>
+    <hr>
+    <div>
+        <input type="text" placeholder="enter your name">
+        <input type="number" placeholder="enter code number">
+        <input type="password" placeholder="enter your password">
+        <input type="date">
     </div>
 
 </body>
+
 </html>
